@@ -1,2 +1,2 @@
 # ardysop.com
-🎙🌐🎮 The Official ArdysOP Website
+The official ArdysOP website.

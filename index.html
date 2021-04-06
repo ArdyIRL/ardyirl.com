@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ArdysOP / Freelance FPS Shoutcaster and Streamer</title>
+	<link rel="stylesheet" href="src/ardy.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap">
+	<script src="src/fetch-polyfill.min.js"></script>
+</head>
+<body>
+	<nav id="nav-bar">
+		<span class="left"> <!-- left links (anchors) -->
+			<a href="#highlight-reel">reel</a>
+			<a href="#video-on-demand">VODs</a>
+			<a href="#social-media">socials</a>
+		</span>
+
+		<a href="./" class="logo-link"><div class="nav-logo"></div></a>
+
+		<span class="right"> <!-- right links (external) -->
+			<a href="./resume.pdf">resume</a>
+			<a href="mailto:ardy@ardysop.com">contact</a>
+		</span>
+	</nav>
+	<section class="main">
+		<div class="main-logo"></div>
+		<div class="main-tagline">
+			<span>Freelance FPS Shoutcaster;<span></span>Streamer;</span><br>
+			Broadcaster & Content creator for <a href="https://www.hawaii.edu/esports/">UH Esports</a>
+		</div>
+
+		<!-- funny scrolling arrow button -->
+		<div class="scroller-wrapper">
+			<div id="scroller" class="scroller"></div>
+		</div>
+
+		<!-- decoration -->
+		<div class="main-dec a"></div>
+		<div class="main-dec b"></div>
+		<div class="main-dec c"></div>
+	</section>
+	<section id="highlight-reel" class="reel">
+		<h1>highlight reel</h1>
+		<!-- highlight reel -->
+		<div class="wrapper">
+			<div class="iframe-wrapper">
+				<iframe class="iframe-wrapped" src="https://player.vimeo.com/video/423747596?color=ED7457&portrait=0" frameborder="0" allow="autoplay; picture-in-picture"></iframe>
+			</div>
+		</div>
+	</section>
+	<section id="video-on-demand" class="vods">
+		<h1>VODs</h1>
+		<!-- vods -->
+		<div class="wrapper">
+			<noscript><p>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> to use this feature.</p></noscript>
+			<!-- vod list -->
+			<div id="vods" class="vod-list">
+				<!-- placeholders for people without js/with slow internet -->
+				<a href="https://twitch.tv/"><div class="vod">
+					<div class="info">
+						<div class="title">Loading...</div>
+						<div class="author">Please wait...</div>
+					</div>
+				</div></a>
+				<a href="https://twitch.tv/"><div class="vod">
+					<div class="info">
+						<div class="title">Loading...</div>
+						<div class="author">Please wait...</div>
+					</div>
+				</div></a>
+				<a href="https://twitch.tv/"><div class="vod">
+					<div class="info">
+						<div class="title">Loading...</div>
+						<div class="author">Please wait...</div>
+					</div>
+				</div></a>
+			</div>
+			<!-- "load more" button -->
+			<div id="vod-scroller" class="vod-scroller">show more</div>
+			<!-- amount of content loaded out of how much content is available -->
+			<div id="vod-counter" class="vod-counter">showing 3/???</div>
+		</div>
+		<script async src="src/vods.js"></script>
+	</section>
+	<section id="social-media" class="socials">
+		<h1>social media</h1>
+		<!-- social media links -->
+		<div class="icons-wrapper">
+			<a href="https://discord.gg/h8qTzXN">
+				<img src="src/img/icons/discord.svg" alt="discord logo"></a>
+
+			<a href="https://instagram.com/ardysop_">
+				<img src="src/img/icons/instagram.svg" alt="instagram logo"></a>
+
+			<a href="https://twitter.com/ArdysOP">
+				<img src="src/img/icons/twitter.svg" alt="twitter logo"></a>
+
+			<a href="https://tiktok.com/@ArdysOP">
+				<img src="src/img/icons/tiktok.svg" alt="tiktok logo"></a>
+
+			<a href="https://www.youtube.com/channel/UCpyLZdiOz1TcVNQQ6VxvAsg">
+				<img src="src/img/icons/youtube.svg" alt="youtube logo"></a>
+
+			<a href="https://www.twitch.tv/ardysOP">
+				<img src="src/img/icons/twitch.svg" alt="twitch logo"></a>
+
+			<a href="https://www.linkedin.com/in/ardyross/">
+				<img src="src/img/icons/linkedin.svg" alt="linkedin logo"></a>
+		</div>
+	</section>
+	<footer>
+		<span>&copy; ArdysOP 2021</span>
+		<span class="divider">/</span>
+		<span>website by <a href="https://zvava.org" target="_blank">zvava</a></span>
+		<span class="divider">/</span>
+		<span><a href="./resume.pdf">resume</a> (pdf)</span>
+		<span class="divider">/</span>
+		<span><a href="mailto:ardy@ardysop.com">contact</a> (email)</span>
+	</footer>
+	<script src="src/ardy.js"></script>
+</body>
+</html>

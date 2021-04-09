@@ -297,13 +297,13 @@ section.main {
 	height: 7rem;
 	display: inline-block;
 	opacity: .8;
-	filter: grayscale(100%) contrast(0%);
+	filter: grayscale(100%);
 	transition: opacity .5s, filter .5s;
 }
 
 .brand-list img:hover {
 	opacity: 1;
-	filter: grayscale(0%) contrast(50%);
+	filter: grayscale(0%);
 }
 
 /* content/ vods */

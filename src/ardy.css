@@ -286,6 +286,26 @@ section.main {
 
 /* content/ highlight reel */
 
+.brand-list {
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.brand-list img {
+	height: 7rem;
+	display: inline-block;
+	opacity: .8;
+	filter: grayscale(100%) contrast(0%);
+	transition: opacity .5s, filter .5s;
+}
+
+.brand-list img:hover {
+	opacity: 1;
+	filter: grayscale(0%) contrast(50%);
+}
+
 /* content/ vods */
 
 .vod-list {
@@ -463,7 +483,7 @@ nav.minimized:not(:hover) .nav-logo::after {
 		margin-bottom: -10vw;
 	}
 
-	.iframe-wrapper {
+	.iframe-wrapper, .brand-list {
 		width: 80vw;
 	}
 

@@ -18,7 +18,7 @@ fetch(new Request("/src/data/vods.csv"))
 		scroller.addEventListener("click", () => loadVODs());
 		// load VODs
 		loadVODs();
-	}).catch((e) => { console.error(e); alert("Error occurred while loading VODs, please check console and send contents to developer!") })
+	}).catch((e) => { console.error("Error while trying to load VODs section;", e); });
 
 // load more
 function loadVODs() {

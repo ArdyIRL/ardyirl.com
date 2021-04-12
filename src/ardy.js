@@ -43,7 +43,7 @@ mScroller.addEventListener("click", () =>
 		});
 
 		link.removeAttribute("href");
-	} else if (loc == "./") { // title logo behavior
+	} else if (loc == "./" && link.classList.contains("logo-link")) { // title logo behavior
 		link.addEventListener("click", () => {
 			// remove hash from address, if any
 			if (location.href.includes("#"))

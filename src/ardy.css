@@ -30,6 +30,24 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+	letter-spacing: .1rem;
+	font-size: 3rem;
+	color: #eeeeee;
+}
+
+h2 + p {
+	width: 100%;
+	margin: 0 0 2rem;
+	text-align: center;
+}
+
 p, h1 {
 	margin: 1rem 0;
 }
@@ -113,6 +131,82 @@ nav a {
 	top: 0;
 	z-index: 99;
 	transition: top .25s;
+}
+
+/* mini pages */
+
+.mini-wrapper {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.2s;
+}
+
+.mini-window {
+	padding: 3rem;
+	background: #313339;
+	border-radius: 1rem;
+	width: 50vw;
+	position: relative;
+}
+
+.mini-closer {
+	color: #cccccc;
+	position: absolute;
+	right: 4rem;
+	top: 4rem;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.mini-wrapper.closed {
+	opacity: 0;
+	user-select: none;
+	pointer-events: none;
+}
+
+.mini-wrapper.hidden {
+	display: none;
+}
+
+.mini-title {
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 1rem 0;
+	cursor: default;
+	user-select: none;
+	-webkit-user-select: none;
+	color: #fff;
+}
+
+.mini-link {
+	margin: .25rem 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.mini-link span {
+	margin-left: 1rem;
+	color: #cccccc;
+	cursor: default;
+}
+
+.mini-link a {
+	margin-left: 1rem;
+	user-select: auto;
+	-webkit-user-select: auto;
+}
+
+.mini-content {
+	margin: 1rem 0;
+	color: #fff;
 }
 
 /* content */
@@ -299,6 +393,7 @@ section.main {
 	opacity: .8;
 	filter: grayscale(100%);
 	transition: opacity .5s, filter .5s;
+	cursor: pointer;
 }
 
 .brand-list img:hover {
@@ -480,6 +575,18 @@ nav.minimized:not(:hover) .nav-logo::after {
 		display: none;
 	}
 
+	.mini-window {
+		width: 80vw;
+	}
+
+	.mini-link {
+		margin: 1rem 0;
+	}
+
+	.mini-title, .mini-content {
+		margin: 2rem 0;
+	}
+
 	.main-logo {
 		margin-bottom: -10vw;
 	}
@@ -516,6 +623,11 @@ nav.minimized:not(:hover) .nav-logo::after {
 	.nav-logo::before,
 	.nav-logo::after {
 		left: 1rem;
+	}
+
+	.mini-window {
+		margin: 0 1rem;
+		width: inherit;
 	}
 
 	.main-tagline {

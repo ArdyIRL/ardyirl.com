@@ -387,6 +387,10 @@ section.main {
 	justify-content: center;
 }
 
+.brand-list.semi {
+	flex-direction: column;
+}
+
 .brand-list img {
 	height: 7rem;
 	display: inline-block;

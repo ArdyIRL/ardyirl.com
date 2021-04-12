@@ -87,11 +87,15 @@ let linkArray = [
 linkArray.forEach((l) => {
 	linklist[l] = document.getElementById(l);
 
-	if (linklist[l].tagName == "A")
-		linklist[l].attributes.removeNamedItem("href");
-
 	linklist[l].addEventListener("click", () =>
 		showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links));
+
+	try {
+		if (linklist[l].tagName == "A")
+			linklist[l].attributes.removeNamedItem("href");
+	} catch (e) {
+		console.error(e);
+	}
 });
 
 function showPage(title = "Untitled", content = "Lorem Ipsum", links = null) {

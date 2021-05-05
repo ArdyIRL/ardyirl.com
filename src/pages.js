@@ -9,6 +9,11 @@ let miniPages = {
 	// CUSTOM MINI PAGES
 	"about": {
 		title: "About Me",
+		image: {
+			url: "src/img/headshot-small.jpg",
+			classes: "headshot",
+			preload: true,
+		},
 		content: [
 			"<q>When everyone asked what my favorite sport was growing up. They would all respond with these weird puzzled looks when I said 'Counterstrike'. They would tell me that it wasn't a real sport and tease me for it. But I had always loved it, watching my favorite teams duke it out in esports tournaments around the world. Listening to my favorite shoutcasters creating hype and memorable experiences. I always wanted to be a part of it. So here I am now, trying to make that a reality.</q>",
 			"Ardy has been shoutcasting since 2016 when he was a freelancer for the esports arena in Santa Ana, California. Since then, Ardy has taken part in every sector of the esports industry, gaining experience as a producer, host, analyst, administrator, translator, and more. Though his main passion remains as a play by play shoutcaster.",
@@ -91,7 +96,7 @@ linkArray.forEach((l) => {
 	linklist[l] = document.getElementById(l);
 
 	linklist[l].addEventListener("click", () =>
-		showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l));
+		showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l, miniPages[l].image));
 
 	try {
 		if (linklist[l].tagName == "A")
@@ -101,7 +106,7 @@ linkArray.forEach((l) => {
 	}
 });
 
-function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, url = null) {
+function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, url = null, image = null) {
 	// clear previous elements (just in case)
 	hidePage(false);
 
@@ -121,6 +126,33 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 					<a href="${links[link]}">${links[link].replace("mailto:", "").replace("./", "")}</a>`;
 				pageWindow.appendChild(_l);
 		});
+	}
+
+	// create image(s)
+	if (image !== null) {
+		let img = document.createElement("img");
+			img.src = image.url;
+
+		// if special classes need to be applied
+		if (image.classes) {
+			let classes = typeof(image.classes) == "string" ? [ image.classes ] : image.classes;
+			img.classList.add(...classes);
+		}
+
+		// if a large version of the image is available
+		if (image.preload) {
+			console.debug("[ USING PRELOAD IMG ]", img.src);
+			// large image to replace that placeholder small image
+			let large = new Image;
+			large.addEventListener("load", () => {
+				img.src = large.src;
+				console.debug("[ LOADED RESOURCE   ]", large.src);
+			});
+			large.src = image.url.replace("small", "large");
+			console.debug("[ LOADING RESOURCE  ]", large.src);
+		}
+
+		pageWindow.appendChild(img);
 	}
 
 	// create content
@@ -165,7 +197,7 @@ function hidePage(hide = true) {
 		let children = pageWindow.children;
 		for (let i = children.length - 1; i > 0; i--) {
 			let c = children[i];
-			if (c.classList == "mini-title" || c.classList == "mini-content" || c.classList == "mini-link")
+			if (c.nodeName == "IMG" || c.classList == "mini-title" || c.classList == "mini-content" || c.classList == "mini-link")
 				pageWindow.removeChild(c);
 		}
 	}
@@ -184,6 +216,6 @@ setTimeout(() => {
 	if (_pageToOpenOnLoad = new URL(location.href).searchParams.get("page")) {
 		let p = miniPages[_pageToOpenOnLoad];
 		if (p)
-			showPage(p.title, p.content, p.links);
+			showPage(p.title, p.content, p.links, undefined, p.image);
 	}
 });

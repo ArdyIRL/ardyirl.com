@@ -6,12 +6,10 @@ const links = document.getElementsByTagName("a");
 // responsive nav bar
 nav.classList.add("minimized");
 function updateScroll() {
-	if (scrollY > innerHeight / 2) {
+	if (scrollY > innerHeight / 4) {
 		nav.classList.remove("minimized");
-		scroller.classList.add("hidden");
 	} else {
 		nav.classList.add("minimized");
-		scroller.classList.remove("hidden");
 	}
 }
 updateScroll();
@@ -19,7 +17,7 @@ addEventListener("scroll", updateScroll);
 
 // scroller arrow for lazy people
 mScroller.addEventListener("click", () =>
-	scroll({ top: innerHeight / 2 + 1, behavior: "smooth"}));
+	scroll({ top: innerHeight * 1.25, behavior: "smooth"}));
 
 // smooth scroll on anchor links
 // and also smooth scroll back to top via. the title logo thing

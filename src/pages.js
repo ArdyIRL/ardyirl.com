@@ -73,26 +73,23 @@ let miniPages = {
 		content: "The Storm Competitive Series is an ambitious R6 siege production filled with some really impressive people! They adopted me after seeing me shoutcast my University's R6 tryouts, and they helped me improve my skills with R6 commentating and analyzing, and put me together with T2 and T3 casters as a real test of my ability!",
 		links: { website: "https://scsesports.com/" },
 	},
+	"owl": {
+		title: "Overwatch League",
+		content: "The Overwatch League came to Hawai'i, and it was a BLAST. The Overwatch League approached the University of Hawaii esports program back in december of 2020 to discuss the possibility of OWL 2021 to be hosted on campus. In summer 2021, the 4 main tournaments of the Overwatch League were held at UH Manoa. Throughout the event, the directors and staff of the league provided our students with hands on experience operating a proper esports event. With insight into tournament operations, league operations, and global events management - as well as the technical direction involved in such a large scale production - it was an incredible learning opportunity. Not only that, but during the event I lead the process of content creation and social media management for the University in order to document the students' experiences during the events.",
+		links: { website: "https://overwatchleague.com/" }
+	},
+	"uhe": {
+		title: "UH Esports",
+		content: [
+			"After transferring to the University of Hawaii right at the start of the pandemic, I quickly became involved in the burgeoning esports program at the university. I started out by producing streams and shoutcasting for the VALORANT tryouts, as the game had just come out and I was one of the very first participants in the closed beta.",
+			"After the success of the VALORANT content, I quickly made a name for myself at UH Esports, becoming an administrator before I even formally began attending the university. Through the pandemic, everything was remote work, and I was able to offer my in-home production studio to create content for UH Esports, creating promotional content, streams, in house tournaments, and more. I continue to grow UH esports as if it were my own program, and in Summer of 2021, we began working directly with the Overwatch League to put on the official Overwatch league 2021 production from our UH esports program here at the University of Hawaii at Manoa campus."
+		],
+		links: { website: "https://www.hawaii.edu/esports/" }
+	}
 };
 
 // gather links
-let linkArray = [
-	// get brand links
-	"arena",
-	"edu",
-	"esports",
-	"evo",
-	"gci",
-	"gpj",
-	"msi",
-	"rb",
-	"iq",
-	"scs",
-	// get textual links
-	"about",
-];
-
-linkArray.forEach((l) => {
+Object.keys(miniPages).forEach((l) => {
 	linklist[l] = document.getElementById(l);
 
 	linklist[l].addEventListener("click", () =>

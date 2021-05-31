@@ -24,7 +24,7 @@ let miniPages = {
 	},
 	// CUSTOM BRAND PAGES
 	"arena": {
-		title: "Arena Esports",
+		title: "Esports Arena",
 		content: "In 2016 I was just a kid in high school who watched CS:GO esports tournaments every single day before going home to spend over 1000 hours on CS:GO myself. I wanted to take part in the local esports scene, and I absolutely LOVED hearing the shoutcasters create hype - which is something that I thought I would be capable of. So when I saw on ad on reddit asking for a shoutcaster for an upcoming CS:GO tournament I jumped on it. I sent in a clip of me shoutcasting a replay of one of my matches, and they worked with me to get me on the stage in front of a mic and camera for the very first time! I continued shoutcasting with them until I moved away for university, but I still have a very large space in my heart for the esports arena.",
 		links: { website: "https://www.esportsarena.com/" },
 	},

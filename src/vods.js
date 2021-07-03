@@ -1,3 +1,8 @@
+//
+// show a list of highlighted vods that ardy has shoutcasted in in the vods
+// section
+//
+
 // get elements
 const list = document.getElementById("vods");
 const scroller = document.getElementById("vod-scroller");

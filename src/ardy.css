@@ -521,6 +521,9 @@ section.socials::before {
 
 .icons-wrapper a {
 	margin: .75rem;
+	color: #dddddd;
+	text-decoration: none;
+	font-style: normal;
 }
 
 .icons-wrapper img {
@@ -533,8 +536,24 @@ section.socials::before {
 	filter: drop-shadow(0 0 0 #212328) drop-shadow(0 0 0 #1c1d22)
 }
 
-.icons-wrapper img:hover {
+.icons-wrapper a:hover > img {
 	filter: drop-shadow(0 .4rem 0 #212328) drop-shadow(0 .25rem 0 #1c1d22);
+}
+
+/* content/ social media/ follower counts */
+
+[data-followers]::after {
+	content: attr(data-followers) " 👥";
+	display: block;
+	text-align: center;
+	margin-top: .5em;
+}
+
+[data-text]::after {
+	content: attr(data-text);
+	display: block;
+	text-align: center;
+	margin-top: .5em;
 }
 
 /* decoration/ main section */

@@ -39,7 +39,7 @@
 		<div class="main-tagline">
 			<span>Freelance FPS Shoutcaster;<span></span>Streamer;</span><br>
 			Broadcaster & Content creator for <a href="https://www.hawaii.edu/esports/">UH Esports</a>
-			<noscript><br>This website requires javascript for some features.<br>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a>.</noscript>
+			<noscript><br>This website requires javascript for some features.<br>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> to get full functionality.<br>We do not employ the use of tracking or advertising scripts.</noscript>
 		</div>
 
 		<!-- funny scrolling arrow button -->
@@ -66,13 +66,13 @@
 				<p>Click each one to learn more about my experience with that brand;</p>
 			</div>
 			<div class="brand-list">
+				<img src="src/img/brands/msi-space.png" alt="Space Productions x MSI Gaming banner" id="msi">
 				<img src="src/img/brands/arena.png" alt="Arena Esports logo" id="arena">
+				<img src="src/img/brands/evo.png" alt="EVO Championship Series Japan logo" id="evo">
 				<img src="src/img/brands/edu.png" alt="EDU logo" id="edu">
 				<img src="src/img/brands/esports.png" alt="Esports College and Career Pathways" id="esports">
-				<img src="src/img/brands/evo.png" alt="EVO Championship Series Japan logo" id="evo">
 				<img src="src/img/brands/gci.png" alt="Golden Coast Invitational logo" id="gci">
 				<img src="src/img/brands/gpj.png" alt="Game Party Japan 2019 logo" id="gpj">
-				<img src="src/img/brands/msi-space.png" alt="Space Productions x MSI Gaming banner" id="msi">
 				<img src="src/img/brands/rbcc.png" alt="Red Bull Campus Clutch Valorant logo" id="rb">
 				<img src="src/img/brands/teamiq.png" alt="Team iQ logo" id="iq">
 				<img src="src/img/brands/scs.png" alt="SCS Esports logo" id="scs">
@@ -111,7 +111,7 @@
 			<!-- "load more" button -->
 			<div id="vod-scroller" class="vod-scroller">show more</div>
 			<!-- amount of content loaded out of how much content is available -->
-			<div id="vod-counter" class="vod-counter">showing 3/???</div>
+			<div id="vod-counter" class="vod-counter">showing 3/?</div>
 		</div>
 		<script async src="src/vods.js"></script>
 	</section>
@@ -119,27 +119,29 @@
 		<h1>social media</h1>
 		<!-- social media links -->
 		<div class="icons-wrapper">
-			<a href="https://discord.gg/h8qTzXN">
-				<img src="src/img/icons/discord.svg" alt="discord logo"></a>
-
-			<a href="https://instagram.com/ardysop_">
+			<a href="https://instagram.com/ardysop_" data-platform="instagram" data-followers="?">
 				<img src="src/img/icons/instagram.svg" alt="instagram logo"></a>
 
-			<a href="https://twitter.com/ArdysOP">
+			<a href="https://twitter.com/ArdysOP" data-platform="twitter" data-followers="?">
 				<img src="src/img/icons/twitter.svg" alt="twitter logo"></a>
 
-			<a href="https://tiktok.com/@ArdysOP">
+			<a href="https://tiktok.com/@ArdysOP" data-platform="tiktok" data-followers="?">
 				<img src="src/img/icons/tiktok.svg" alt="tiktok logo"></a>
 
-			<a href="https://www.youtube.com/channel/UCpyLZdiOz1TcVNQQ6VxvAsg">
+			<a href="https://www.youtube.com/channel/UCpyLZdiOz1TcVNQQ6VxvAsg" data-platform="youtube" data-followers="?">
 				<img src="src/img/icons/youtube.svg" alt="youtube logo"></a>
 
-			<a href="https://www.twitch.tv/ardysOP">
+			<a href="https://www.twitch.tv/ardysOP" data-platform="twitch" data-followers="?">
 				<img src="src/img/icons/twitch.svg" alt="twitch logo"></a>
 
-			<a href="https://www.linkedin.com/in/ardyross/">
+			<a href="https://discord.gg/h8qTzXN" data-text="JOIN">
+				<img src="src/img/icons/discord.svg" alt="discord logo"></a>
+
+			<a href="https://www.linkedin.com/in/ardyross/" data-text="CONNECT">
 				<img src="src/img/icons/linkedin.svg" alt="linkedin logo"></a>
 		</div>
+		<noscript><p>If you are seeing question marks (?) then you have JavaScript disabled, please enable JavaScript to be able to see my live follower count!</p></noscript>
+		<script async src="src/followers.js"></script>
 	</section>
 	<footer>
 		<span>&copy; ArdysOP 2021</span>

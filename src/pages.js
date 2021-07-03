@@ -1,3 +1,8 @@
+//
+// this js file loads miniature pages showing stuff about sponsors/brands that
+// ardy has worked with as well as displaying the about page and stuff™
+//
+
 const pageWrap = document.getElementById("pages-wrapper");
 const pageWindow = document.getElementById("pages-window");
 const pageCloser = document.getElementById("pages-closer");
@@ -15,10 +20,10 @@ let miniPages = {
 			preload: true,
 		},
 		content: [
-			"<q>When everyone asked what my favorite sport was growing up. They would all respond with these weird puzzled looks when I said 'Counterstrike'. They would tell me that it wasn't a real sport and tease me for it. But I had always loved it, watching my favorite teams duke it out in esports tournaments around the world. Listening to my favorite shoutcasters creating hype and memorable experiences. I always wanted to be a part of it. So here I am now, trying to make that a reality.</q>",
+			"<q>When everyone asked what my favorite sport was growing up. They would all respond with these weird puzzled looks when I said 'Counter-Strike'. They would tell me that it wasn't a real sport and tease me for it. But I had always loved it, watching my favorite teams duke it out in esports tournaments around the world. Listening to my favorite shoutcasters creating hype and memorable experiences. I always wanted to be a part of it. So here I am now, trying to make that a reality.</q>",
 			"Ardy has been shoutcasting since 2016 when he was a freelancer for the esports arena in Santa Ana, California. Since then, Ardy has taken part in every sector of the esports industry, gaining experience as a producer, host, analyst, administrator, translator, and more. Though his main passion remains as a play by play shoutcaster.",
 			"Since the release of VALORANT (2020), Ardy has shoutcasted for almost every major collegiate VALORANT tournament. Making sure to provide the most hype play by play commentary imaginable when needed, but always keeping the tempo moving forward.",
-			"From tournaments in Japan, to his own twitch streams, to the esports program at the University of Hawaii. Ardy continues to funnel his creative energy to make sure that there is nothing but good vibes, and positive energy.",
+			"From tournaments in Japan, to his own Twitch streams, to the esports program at the University of Hawaii. Ardy continues to funnel his creative energy to make sure that there is nothing but good vibes, and positive energy.",
 		],
 		links: { contact: "mailto:contact@ardysop.com" },
 	},

@@ -1,3 +1,8 @@
+//
+// misc scripted functionality for ardysop.com (strangely mainly to do with
+// scrolling 🤔)
+//
+
 // fetch elements
 const nav = document.getElementById("nav-bar");
 const mScroller = document.getElementById("scroller");

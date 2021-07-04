@@ -547,7 +547,7 @@ section.socials::before {
 
 /* content/ social media/ follower counts */
 
-[data-followers]::after {
+/* [data-followers]::after {
 	content: attr(data-followers) " 👥";
 	display: block;
 	text-align: center;
@@ -559,7 +559,7 @@ section.socials::before {
 	display: block;
 	text-align: center;
 	margin-top: .5em;
-}
+} */
 
 /* decoration/ main section */
 

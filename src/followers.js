@@ -3,6 +3,8 @@
 // in the social media section
 //
 
+// TODO: FIX
+
 // api links
 let apiLinks = {
 	youtube: "https://socialblade.com/youtube/channel/UCpyLZdiOz1TcVNQQ6VxvAsg",

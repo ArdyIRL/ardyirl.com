@@ -3,7 +3,7 @@
 // in the social media section
 //
 
-// TODO: FIX
+// TODO: MAKE WORK
 
 // api links
 let apiLinks = {

@@ -131,7 +131,7 @@ nav a {
 	content: "";
 	width: 25vw;
 	height: 3.5rem;
-	background: center / contain no-repeat url("img/ardysop-b.png");
+	background: center / contain no-repeat url("img/ardyirl-b.png");
 	display: block;
 	position: absolute;
 	left: 37.5vw;
@@ -145,7 +145,7 @@ nav a {
 	content: "";
 	width: 25vw;
 	height: 3.5rem;
-	background: center / contain no-repeat url("img/ardysop-w.png");
+	background: center / contain no-repeat url("img/ardyirl-w.png");
 	display: block;
 	position: absolute;
 	left: 37.5vw;
@@ -350,7 +350,7 @@ section.main {
 .main-logo {
 	height: 25vh;
 	min-width: 100vw;
-	background: center / contain no-repeat url("img/ardysop-shadow.png");
+	background: center / contain no-repeat url("img/ardyirl-shadow.png");
 	position: relative;
 	z-index: 9;
 	top: 0;
@@ -462,6 +462,7 @@ section.main {
 	overflow: hidden;
 	position: relative;
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+	mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
 
 .vod-list .vod .info {
@@ -544,22 +545,6 @@ section.socials::before {
 .icons-wrapper a:hover > img {
 	filter: drop-shadow(0 .4rem 0 #212328) drop-shadow(0 .25rem 0 #1c1d22);
 }
-
-/* content/ social media/ follower counts */
-
-/* [data-followers]::after {
-	content: attr(data-followers) " 👥";
-	display: block;
-	text-align: center;
-	margin-top: .5em;
-}
-
-[data-text]::after {
-	content: attr(data-text);
-	display: block;
-	text-align: center;
-	margin-top: .5em;
-} */
 
 /* decoration/ main section */
 

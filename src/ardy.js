@@ -1,5 +1,5 @@
 //
-// misc scripted functionality for ardysop.com (strangely mainly to do with
+// misc scripted functionality for ardyirl.com (strangely mainly to do with
 // scrolling 🤔)
 //
 

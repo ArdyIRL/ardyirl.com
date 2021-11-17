@@ -25,7 +25,7 @@ let miniPages = {
 			"Since the release of VALORANT (2020), Ardy has shoutcasted for almost every major collegiate VALORANT tournament. Making sure to provide the most hype play by play commentary imaginable when needed, but always keeping the tempo moving forward.",
 			"From tournaments in Japan, to his own Twitch streams, to the esports program at the University of Hawaii. Ardy continues to funnel his creative energy to make sure that there is nothing but good vibes, and positive energy.",
 		],
-		links: { contact: "mailto:contact@ardysop.com" },
+		links: { contact: "mailto:contact@ardyirl.com" },
 	},
 	// CUSTOM BRAND PAGES
 	"arena": {

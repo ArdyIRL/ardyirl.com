@@ -9,12 +9,14 @@ const mScroller = document.getElementById("scroller");
 const links = document.getElementsByTagName("a");
 
 // responsive nav bar
-nav.classList.add("minimized");
+//nav.classList.add("minimized");
 function updateScroll() {
 	if (scrollY > innerHeight / 4) {
-		nav.classList.remove("minimized");
+		//nav.classList.remove("minimized");
+		mScroller.classList.add("hidden");
 	} else {
-		nav.classList.add("minimized");
+		//nav.classList.add("minimized");
+		mScroller.classList.remove("hidden");
 	}
 }
 updateScroll();

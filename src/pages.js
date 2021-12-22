@@ -90,7 +90,22 @@ let miniPages = {
 			"After the success of the VALORANT content, I quickly made a name for myself at UH Esports, becoming an administrator before I even formally began attending the university. Through the pandemic, everything was remote work, and I was able to offer my in-home production studio to create content for UH Esports, creating promotional content, streams, in house tournaments, and more. I continue to grow UH esports as if it were my own program, and in Summer of 2021, we began working directly with the Overwatch League to put on the official Overwatch league 2021 production from our UH esports program here at the University of Hawaii at Manoa campus."
 		],
 		links: { website: "https://www.hawaii.edu/esports/" }
-	}
+	},
+	"owl2021": {
+		title: "Overwatch Leage 2021",
+		content: "Throughout the entire Overwatch League 2021 season, I had the amazing opportunity to work directly with the directors and staff of the league in an internship that not even OWL was expecting. I began working more closely with OWL after the May Melee, and during the June Joust and summer showdown, I was working as a production assistant on the IRL features that would appear on the broadcast! I also was able to create drone footage for use during the broadcast that would act as filler between breaks. During the Grand Finals, I was given even more responsibility to help out the post production crew, and help to assure that things went smoothly when the league was on island. I am super thankful for the lessons I learned during the grand finals, and the connections I made to some truly fantastic people!",
+		links: { website: "https://overwatchleague.com/en-us/" }
+	},
+	"cod": {
+		title: "Call of Duty League",
+		content: "Between the Summer Showdown and the Countdown Cup for Overwatch League, I was offered a role as a production assistant at the Call of Duty League Stage V Major in Arlington Texas. Similar to the Overwatch League, I was able to get experience with everything from personal assistant, post production, basic event setup, and finally Main stage camera operator! Having such a wide variety of roles between CDL and OWL allowed me to get extremely detailed insight as to how these events are run, and what the structure of a proper esports tournament looks like. Sharing my experiences of OWL to the CDL team was incredibly funny as they were all aware of the chaos that was occurring in Hawai'i, but had no idea how crazy things actually got. I'm very thankful for my time in Texas; and I take pride in knowing that I learned MANY things from both my successes AND my mistakes.",
+		links: { website: "https://www.callofdutyleague.com/en-us/" }
+	},
+	"tl": {
+		title: "Team Liquid",
+		content: "During the same time as the Overwatch League grand finals, I was offered an internship at Team Liquid ~ one of my absolute dream orgs! While the first week was absolutely CRAZY, working on OWL & getting settled in to my internship with TL simultaneously , once the dust settled I had a fantastic time both with my team in the events department and my fellow interns! At Team Liquid - they saw in me what I didn't see in myself and connected the dots to find me something that could utilize my skills to the fullest. This internship allowed me to hone my abilities, as well as learn new ones. My managers gave me so much insight to the industry as a larger entity, and enabled me to learn from more than just the events team, but to work with and learn from the other departments at Team Liquid too. I've grown so much, not only as someone in the industry, but as a person as well. I finally feel like I belong here, and I am no longer weary of the decisions I have to make. I am so thankful to have been a part of the first cohort of interns for the Liquid Legacy Guild. And I'm proud be one of the interns to carry that torch into 2022.",
+		links: { website: "https://tl.gg/" }
+	},
 };
 
 // gather links

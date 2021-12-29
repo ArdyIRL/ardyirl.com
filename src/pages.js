@@ -106,6 +106,24 @@ let miniPages = {
 		content: "During the same time as the Overwatch League grand finals, I was offered an internship at Team Liquid ~ one of my absolute dream orgs! While the first week was absolutely CRAZY, working on OWL & getting settled in to my internship with TL simultaneously , once the dust settled I had a fantastic time both with my team in the events department and my fellow interns! At Team Liquid - they saw in me what I didn't see in myself and connected the dots to find me something that could utilize my skills to the fullest. This internship allowed me to hone my abilities, as well as learn new ones. My managers gave me so much insight to the industry as a larger entity, and enabled me to learn from more than just the events team, but to work with and learn from the other departments at Team Liquid too. I've grown so much, not only as someone in the industry, but as a person as well. I finally feel like I belong here, and I am no longer weary of the decisions I have to make. I am so thankful to have been a part of the first cohort of interns for the Liquid Legacy Guild. And I'm proud be one of the interns to carry that torch into 2022.",
 		links: { website: "https://tl.gg/" }
 	},
+	"boomavgl": {
+		title: "BoomTV and AVGL",
+		content: [
+			"In November of 2021 I enterd the BoomTV / AVGL x Intel Inspire shoutcasting competition, in this competition I managed to secure 4th place thanks to my highlight reel, as well as casting League of Legends, fortnite, rocket league, and valorant!",
+			"I am incredibly thankful for the boost in confidence this gave me to continue pushing forward my casting career, and intel inspires provided a very generous prize for it too!",
+			"Later AVGL and BoomTV invited me to cast their $20,000 collegiate Vanguard tournament, and I am super thankful for the opportunity to work with such a great production crew!",
+		],
+		links: { "boomtv website": "https://boom.tv/", "avgl website": "https://avgl.org/" }
+	},
+	"esportsworkshop": {
+		title: "Esports Workshop",
+		content: [
+			"ArtU Esports and Redbull invited me to host a college class on esports level design!",
+			"During the spring 2021 semester, I was able to host this class alongside a veteran level designer and talk about how level design impacts esports. During this class, I was able to provide insight as to how small map changes can lead to entirely different gameplay loops - as well as how level designers cater to both the wide general audience, and the smaller pro scene with certain details.",
+			"Hosting this course has definitely given me deeper understanding of map flow and design, and has tremendously benefitted my casting ever since!",
+		],
+		links: { "youtube playlist": "https://www.youtube.com/playlist?list=PL33ae5Gg6n32g3SowRuxfff-KqcIcOTxF" }
+	},
 };
 
 // gather links

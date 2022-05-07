@@ -79,6 +79,9 @@ a {
 	cursor: pointer;
 }
 
+noscript { color: orange; }
+noscript * { color: orange; }
+
 /* ui */
 
 nav {
@@ -678,7 +681,8 @@ nav.minimized:not(:hover) .nav-logo::after {
 	}
 
 	.mini-closer {
-		right: 0;
+		right: -.5rem;
+		top: 1.5rem;
 	}
 
 	.mini-window {

@@ -14,18 +14,46 @@ let miniPages = {
 	// CUSTOM MINI PAGES
 	"about": {
 		title: "About Me",
-		image: {
-			url: "src/img/headshot-small.jpg",
-			classes: "headshot",
-			preload: true,
-		},
+		image: "src/img/media/headshot.jpg",
 		content: [
-			"<q>When everyone asked what my favorite sport was growing up. They would all respond with these weird puzzled looks when I said 'Counter-Strike'. They would tell me that it wasn't a real sport and tease me for it. But I had always loved it, watching my favorite teams duke it out in esports tournaments around the world. Listening to my favorite shoutcasters creating hype and memorable experiences. I always wanted to be a part of it. So here I am now, trying to make that a reality.</q>",
-			"Ardy has been shoutcasting since 2016 when he was a freelancer for the esports arena in Santa Ana, California. Since then, Ardy has taken part in every sector of the esports industry, gaining experience as a producer, host, analyst, administrator, translator, and more. Though his main passion remains as a play by play shoutcaster.",
+			"<q>When everyone asked what my favorite sport was growing up. They would all respond with these weird puzzled looks when I said 'Counter-Strike'. They would tell me that it wasn't a real sport and tease me for it. But I had always loved it, watching my favorite teams duke it out in esports tournaments around the world. Listening to my favorite shoutcasters creating hype and memorable experiences. I always wanted to be a part of it. So here I am now, making that a reality.</q>",
+			"Ardy has been shoutcasting since 2015 when he was a freelancer for the esports arena in Santa Ana, California. Since then, Ardy has taken part in every sector of the esports industry, gaining experience as a producer, host, analyst, administrator, translator, and more. Though his main passion remains as a play by play shoutcaster.",
 			"Since the release of VALORANT (2020), Ardy has shoutcasted for almost every major collegiate VALORANT tournament. Making sure to provide the most hype play by play commentary imaginable when needed, but always keeping the tempo moving forward.",
-			"From tournaments in Japan, to his own Twitch streams, to the esports program at the University of Hawaii. Ardy continues to funnel his creative energy to make sure that there is nothing but good vibes, and positive energy.",
+			"From casting tournaments in Japan, to the esports program at the University of Hawaii - Ardy has continued to funnel his positive energy into shoutcasting, and has dominated the Collegiate Valorant scene. On top of Valorant, Ardy has taken on T2 Apex legends tournaments while still pursuing his degree at the University of Hawaii.",
 		],
 		links: { contact: "mailto:contact@ardyirl.com" },
+	},
+	"education": {
+		title: "Education",
+		content: [
+			"<h3>My experience as an undergraduate at the University of Hawai'i</h3>",
+			"<img src='src/img/media/trophy.jpg'><span class='subtext'>September 2021, Overwatch League Grand Finals, Honolulu, Hawai'i</span>",
+			"In March of 2020 at the start of the pandemic I transferred to the University of Hawai'i at Manoa. Coming from Japan to Hawai'i, I was expecting a lot of lifestyle changes. However, the biggest lifestyle change did not come from being in a different locale, instead it came from the new way of life that everyone had to adapt to: being socially distanced, and entirely remote.",
+			"But remote learning, especially from Hawai'i, turned out to be the best thing that had ever happened to me. This blessing in disguise allowed me to put my head down, and focus on building my brand, and begin engaging in a career from within my dream industry: gaming and esports.",
+			"During my first semester at the University of Hawai'i, I was still unsure if I would ever get to have a career in this industry. I had been shoutcasting since 2015, but only freelance, and never anything that paid me well enough to think it could be a career path. In Japan, I hosted the largest nightlife event in Osaka - The Osaka Pub crawl. It was there that I learned I really had a knack for hosting, and being in front of a large crowd and audience. But these skills surely would never lead to an actual career right? I certainly didn't think so, which is why I transferred into the Astronomy program.",
+			"My second semester, I realized that Astronomy was fantastic, but my heart was with Geography and Earth Science. I wanted to combine those so I transferred into the School of Ocean and Earth Science and Technology. Concurrent to my studies, however, I continued to work on my skills as a shoutcaster, and started to build my brand as a streamer. I learned video editing, and through the UH esports program, I started shoutcasting and doing various social media projects.",
+			"In 2021, when the Overwatch League came to Hawai'i, the Director of the UH esports program - Sky Kauweloa - gave me an incredible opportunity to lead the way in content creation for the program during the school sanctioned Overwatch League Internship. Shortly after this, I was approached by the Overwatch League directors and offered an internship directly through them, rather than the internship through the school. It was during this time that Sky informed me I had a unique skill set that would serve me well, and if I wanted to do esports / gaming full time. I would benefit from joining the school of communications to aid me in my dream to break into the industry. So I made the switch.",
+			"From then on, I was a communications major, doing my best to make sure I was working full time to make it in the industry as well. I was networking, attending workshops, always learning both in and outside of class, and through my mentors at Overwatch League and Call of Duty League, I picked up a very diverse variety of skills extremely quickly. Following my internship with the Overwatch League, I was offered an internship at Team Liquid - my first ever job with an esports organization. What started as an internship where I would assist the director of events became an internship where I was project lead for 2 insanely important events for the organization. The first half of my internship saw me overlooking the first in person event for the org post-covid, and the second half saw me as the project lead for the first ever women-centric tournament for Valorant that the org would hold. After my work with Team Liquid, I was offered a full time role handling the social media for Opera GX, my very first real job.",
+			"None of these things would have been possible without the very real skills that I learned during my time at the University of Hawai'i at Manoa. From all of my professors, to my class projects that felt like more than just assignments meant to be graded and forgotten, there was so much passion that was generated from this beautiful campus.",
+			"Here are a few of the things that I worked on in my time at the University of Hawai'i:",
+
+
+			"<h3>Original Capstone Project</h3>",
+			"<img src='src/img/media/capstone.jpg'>",
+			"My capstone project oversaw me collecting data from all around the island of O'ahu with regards to esports. It was amazing to get perspective from locals who had no idea how much influence their island had over the industry, let alone those who had no idea that this industry existed. It was touching to have conversations about the “brain-drain” that the islands have experienced, especially with regards to esports and gaming - and to hear ideas from locals for ways that they wanted to see the issues fixed. Ultimately knowing that the majority of people supported the idea of a state-funded esports program helped to inspire confidence in the program here at the University of Hawai'i - and I hope that this project will eventually help to realize an official state program here on the islands.",
+
+			"<h3>Overwatch League Internship</h3>",
+			// "<img src='src/img/media/trophy.jpg'><span class='subtext'>(Photo: September 2021, Overwatch League Grand Finals, Honolulu, Hawai'i)</span>",
+			"The overwatch league internship manifested itself into one of the most incredibly rewarding experiences of my entire life. During the internship, on the school side of things, I helped guide a class of students at UH esports through content production and instructed them on social media growth. On the Overwatch side of things, I was taken under the wing of Eric Fischman ~ the lead features producer for the Overwatch League ~ where I learned so many new skills in the area of video production and content creation. I had a lot of ideas that I was able to translate on screen for millions of viewers, and on top of that I got to experience a real world example of professional content creation as a career option. I will forever be thankful for this opportunity that thrust me into right into the heart of the esports industry.",
+
+			"<h3>UH Esports</h3>",
+			"<img src='src/img/media/videos.jpg'>",
+			"Before I even set foot on the campus of the University of Hawai'i, I was involved in the UH esports program. I approached Sky Kauweloa and told him I was an incoming transfer student, and that I wanted to get involved in their program, mentioning that their social Media presence could use some work. Within the first month, I was streaming live various matches on their twitch channel, and generating content for youtube with the sole purpose of building the program up in the public eye, and it was working. I had used all of my spare time granted by the pandemic and asynchronous classes to make all the content that was possible. At this time, the program was even struggling to be fully recognized by the campus, and so the YouTube videos ended up being published on my own YouTube channel since we couldn't get an official program one. This was an amazing learning experience for myself, and I had the pleasure of taking a whole new generation under my wing to train the next content team, as I would quickly find myself stepping out of the collegiate space and into the real world of content production.",
+
+			"<h3>The School of Communications at the University of Hawai'i</h3>",
+			"<img src='src/img/media/skyline.jpg'>",
+			"Ultimately, my time with the communications program felt a lot shorter than it really was, mostly due to the pandemic, and a majority online asynchronous format. While not the ideal 4 year college experience, it was this college experience that saw me taking on a full time job 2 semesters before graduation. That is something that I had always wanted to do, inspired by the amazing people that I looked up to in the industry before I knew it was a possibility. Ultimately, it was a massive risk, but I am so thankful to all of my professors and advisors who saw to it that I could make adjustments to their courses in order to incorporate my work life into my school assignments. The fact is, the school of communication taught me that through communication itself, I would be able to make anything work out that I set my mind to. When it all comes down to it, we are all people, and we are all brought together through communication. Everyone has their needs, and everyone has their agenda, my time at the University of Hawai'i taught me that if you just be fully truthful and upfront about those needs and that agenda - people will always at least be willing to meet you halfway. The number one thing I learned through this, was to always live with Aloha 🤙"
+		]
 	},
 	// CUSTOM BRAND PAGES
 	"arena": {
@@ -166,27 +194,7 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 	// create image(s)
 	if (image !== null) {
 		let img = document.createElement("img");
-			img.src = image.url;
-
-		// if special classes need to be applied
-		if (image.classes) {
-			let classes = typeof(image.classes) == "string" ? [ image.classes ] : image.classes;
-			img.classList.add(...classes);
-		}
-
-		// if a large version of the image is available
-		if (image.preload) {
-			console.debug("[ USING PRELOAD IMG ]", img.src);
-			// large image to replace that placeholder small image
-			let large = new Image;
-			large.addEventListener("load", () => {
-				img.src = large.src;
-				console.debug("[ LOADED RESOURCE   ]", large.src);
-			});
-			large.src = image.url.replace("small", "large");
-			console.debug("[ LOADING RESOURCE  ]", large.src);
-		}
-
+		img.src = image;
 		pageWindow.appendChild(img);
 	}
 

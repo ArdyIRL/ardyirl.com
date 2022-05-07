@@ -70,7 +70,7 @@ function generateVOD(vod) {
 	// create vod wrapper
 	let wrapper = document.createElement("div");
 		wrapper.classList.add("vod");
-		wrapper.style.backgroundImage = `url("src/img/thumbs/${authorImage}.jpg")`;
+		wrapper.setAttribute("style", `background-image: url("src/img/thumbs/${authorImage.trim()}.jpg")`);
 		a.appendChild(wrapper);
 	// create info wrapper
 	let info = document.createElement("div");
@@ -98,8 +98,9 @@ function parseCSV(data) {
 		.map(x => x.split(",")) // split into columns
 		.filter(x => x.length >= 4); // get only columns with required length
 
+	// check for video titles containing commas
 	table.forEach((row, i) => {
-		if (row.length > 4) { // has had a fucky
+		if (row.length > 4) {
 			let nRow = [];
 			// push platform
 			nRow.push(row.shift());

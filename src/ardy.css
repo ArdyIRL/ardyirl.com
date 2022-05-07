@@ -20,6 +20,7 @@ body {
 	color: #dddddd;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
+	overflow-x: hidden;
 }
 
 /* better defaults */
@@ -56,7 +57,6 @@ q {
 	font-style: italic;
 	text-align: justify;
 	color: #dedede;
-	position: relative;
 }
 
 q::before {
@@ -68,9 +68,8 @@ q::before {
 q::after {
 	font-size: 1.5em;
 	margin-left: .25rem;
-	color: #cdcdcd;
+	color: #ffffff;
 	position: absolute;
-	top: calc(100% - .5rem);
 }
 
 a {
@@ -171,7 +170,7 @@ nav a {
 }
 
 .mini-window {
-	width: 50vw;
+	width: 60vw;
 	max-height: 80vh;
 	padding: 3rem;
 	background: #313339;
@@ -201,7 +200,7 @@ nav a {
 }
 
 .mini-title {
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 2rem;
 	margin: 1rem 0;
 	cursor: default;
@@ -231,12 +230,27 @@ nav a {
 .mini-content {
 	margin: 1rem 0;
 	color: #fff;
+	line-height: 125%;
+}
+
+.mini-content h3 {
+	font-weight: normal;
+	font-size: 1.5rem;
 }
 
 .mini-window img {
-	margin: 2rem calc(20% + 2rem) 0;
-	width: calc(60% - 4rem);
+	margin: 0 calc(15% + 2rem);
+	width: calc(70% - 4rem);
 	border-radius: 1rem;
+}
+
+/* "special images" */
+.mini-window > img { margin-top: 2rem !important; }
+
+.mini-window img + .subtext {
+	margin: 0 calc(15% + 2rem);
+	font-size: .9rem;
+	color:rgba(255, 255, 255, .75)
 }
 
 /* content */
@@ -614,10 +628,12 @@ nav.minimized:not(:hover) .nav-logo::after {
 	.mini-window { width: 80vw; }
 
 	.mini-window img {
-		margin: 2rem calc(10% + 2rem) 0;
-		width: calc(80% - 4rem);
+		margin: 0 0;
+		width: 100%;
 		border-radius: 1rem;
 	}
+
+	.mini-window img + .subtext { margin: 0; }
 
 	.mini-link { margin: 1rem 0; }
 
@@ -635,8 +651,10 @@ nav.minimized:not(:hover) .nav-logo::after {
 }
 
 @media (max-width: 70rem) {
-	nav .left :nth-child(1),
-	nav .left :nth-child(2) {
+	/* highlight reel */ nav .left :nth-child(1),
+	/* stream */ nav .left :nth-child(2),
+	/* blog */ nav .right :nth-child(2),
+	/* contact */ nav .right :nth-child(4) {
 		display: none;
 	}
 
@@ -659,8 +677,13 @@ nav.minimized:not(:hover) .nav-logo::after {
 		padding: 0 1rem;
 	}
 
+	.mini-closer {
+		right: 0;
+	}
+
 	.mini-window {
-		margin: 0 1rem;
+		margin: 0 .5rem;
+		padding: 1rem;
 		width: inherit;
 	}
 
@@ -684,11 +707,6 @@ nav.minimized:not(:hover) .nav-logo::after {
 	.icons-wrapper {
 		margin: 0 2rem 5rem;
 	}
-
-	.mini-window img {
-		margin: 2rem 1rem 0;
-		width: calc(100% - 2rem);
-	}
 }
 
 @media (max-width: 25rem) {
@@ -700,11 +718,6 @@ nav.minimized:not(:hover) .nav-logo::after {
 
 	.icons-wrapper {
 		margin: 0 1rem 5rem;
-	}
-
-	.mini-window img {
-		margin: 2rem 0 0;
-		width: 100%;
 	}
 }
 

@@ -37,13 +37,12 @@ let miniPages = {
 			"None of these things would have been possible without the very real skills that I learned during my time at the University of Hawai'i at Manoa. From all of my professors, to my class projects that felt like more than just assignments meant to be graded and forgotten, there was so much passion that was generated from this beautiful campus.",
 			"Here are a few of the things that I worked on in my time at the University of Hawai'i:",
 
-
 			"<h3>Original Capstone Project</h3>",
 			"<img src='src/img/media/capstone.jpg'>",
 			"My capstone project oversaw me collecting data from all around the island of O'ahu with regards to esports. It was amazing to get perspective from locals who had no idea how much influence their island had over the industry, let alone those who had no idea that this industry existed. It was touching to have conversations about the “brain-drain” that the islands have experienced, especially with regards to esports and gaming - and to hear ideas from locals for ways that they wanted to see the issues fixed. Ultimately knowing that the majority of people supported the idea of a state-funded esports program helped to inspire confidence in the program here at the University of Hawai'i - and I hope that this project will eventually help to realize an official state program here on the islands.",
 
 			"<h3>Overwatch League Internship</h3>",
-			// "<img src='src/img/media/trophy.jpg'><span class='subtext'>(Photo: September 2021, Overwatch League Grand Finals, Honolulu, Hawai'i)</span>",
+			"<img src='src/img/media/olinternship.jpg'>",
 			"The overwatch league internship manifested itself into one of the most incredibly rewarding experiences of my entire life. During the internship, on the school side of things, I helped guide a class of students at UH esports through content production and instructed them on social media growth. On the Overwatch side of things, I was taken under the wing of Eric Fischman ~ the lead features producer for the Overwatch League ~ where I learned so many new skills in the area of video production and content creation. I had a lot of ideas that I was able to translate on screen for millions of viewers, and on top of that I got to experience a real world example of professional content creation as a career option. I will forever be thankful for this opportunity that thrust me into right into the heart of the esports industry.",
 
 			"<h3>UH Esports</h3>",

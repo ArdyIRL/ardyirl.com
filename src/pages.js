@@ -151,6 +151,51 @@ let miniPages = {
 		],
 		links: { "youtube playlist": "https://www.youtube.com/playlist?list=PL33ae5Gg6n32g3SowRuxfff-KqcIcOTxF" }
 	},
+	"nerdstreet": {
+		title: "Nerdstreet Gamers",
+		content: "Starting in May of 2022, Ardy has taken his Apex Legends casting to the next level with the Nerdstreet Gamers Summer Champs series. Alongside some amazing talent, Ardy has taken care to study the best of the best that the Apex community has to offer. Taking his experience working alongside the Team Liquid Apex team to make sure he is bringing the highest quality insight to his best play by play yet.",
+		links: { website: "https://nerdstreet.com/" }
+	},
+	"eveasc": {
+		title: "Eve Ascension",
+		content: "In March of 2022, Ardy took on the role of project lead for Eve Ascension, Team Liquid’s first ever Women-centric valorant tournament. Providing Women in the Valorant scene with the ability to show their skills in a dedicated tournament, where the winners were able to play alongside signed pro teams in a best of 1, round robin charity show match. It was incredibly successful, and even though Ardy moved away from Team Liquid in April, they continue to bring Eve Ascension back as a returning circuit - along with some special collaborations with Riot Games in the Women’s Valorant space.",
+		links: { website: "https://tl.gg/eveascension/" }
+	},
+	"egf": {
+		title: "EGF",
+		content: "Shoutcasting Valorant for the Electronic Gaming Federation with Tyler Schrodt has always been a very fun outlet for Ardy. With incredibly low stakes, and very talented casters and producers, Ardy always has had nothing but love for EGF and their collegiate valorant and CS:GO circuits.",
+		links: { website: "https://egf.gg/" }
+	},
+	"egl": {
+		title: "EGL",
+		content: "Alongside one of his longest partners in casting, Ashkon Hojati, Ardy was signed for the entire first season of the EGL club clash for Apex Legends, and got a lot of great experience on Apex during his time with the EGL contract.",
+		links: { website: "https://egl.tv/" }
+	},
+	"unified": {
+		title: "Unified Premier",
+		content: "Concurrent to EGL and other contracts, Ardy and Ashkon continued their epic duo presence together in the Unified Premier League. A classic, low stakes Collegiate valorant conference filled with fun times and good vibes :)",
+		links: { website: "https://uea.gg/premier/" }
+	},
+	"nace": {
+		title: "NACE Starleague",
+		content: "On more than one occasion, Ardy has worked with NACE starleague to provide coverage for their VALORANT and Call of Duty events! With NACE, the quality is always excellent, and its one of many collegiate productions that knows they can always count on Ardy to jump in at the last minute when they need quality on short notice.",
+		links: { website: "https://nacesports.org/" }
+	},
+	"imc": {
+		title: "IMC College Clash",
+		content: "Concurrently to his time at Team Liquid, Ardy was called upon by his employers to utilize his skill for play by play casting in the IMC Trading College Clash for CS:GO. Covering both the NA and Australia / NZ regions, Ardy was working alongside some of the best collegiate CS:GO talent on offer.",
+		links: { website: "https://careers.imc.com/us/en/imc-college-clash" }
+	},
+	"redbull": {
+		title: "Redbull Pacific Gauntlet",
+		content: "Powered by Redbull Gaming and Twitch student the pacific gauntlet follows its ancestors of the Golden Coast Invitational and the Redbull Campus Clutch. Ardy and Kanashii took the reigns of this legendary collegiate in December of 2021 and in May of 2022 to provide rock solid coverage for the best Valorant Collegiate talent that North America has to offer.",
+		links: { twitter: "https://twitter.com/pacificgauntlet" }
+	},
+	"operagx": {
+		title: "Opera GX",
+		content: "After years of hard work in the gaming and esports industry, Ardy landed his first ever full time job, while concurrently pursuing his degree in communications at the University of Hawai’i at Manoa. Taking on the role of social media manager Ardy runs the Twitter, TikTok, Twitch, YouTube, and Instagram accounts for the World’s first gaming browser.",
+		links: { website: "https://opera.com/gx" }
+	},
 };
 
 // gather links

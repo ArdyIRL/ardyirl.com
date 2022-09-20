@@ -32,7 +32,7 @@ mScroller.addEventListener("click", () =>
 	/** @type {string} */
 	let loc = link.getAttribute("href");
 
-	if (loc.charAt() == "#") { // anchor link behavior
+	if (loc && loc.charAt() == "#") { // anchor link behavior
 		let anchor = document.getElementById(loc.substring(1));
 
 		link.addEventListener("click", () => {

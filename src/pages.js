@@ -153,7 +153,7 @@ let miniPages = {
 	},
 	"nerdstreet": {
 		title: "Nerdstreet Gamers",
-		content: "Starting in May of 2022, Ardy has taken his Apex Legends casting to the next level with the Nerdstreet Gamers Summer Champs series. Alongside some amazing talent, Ardy has taken care to study the best of the best that the Apex community has to offer. Taking his experience working alongside the Team Liquid Apex team to make sure he is bringing the highest quality insight to his best play by play yet.",
+		content: "Starting in May of 2022, Ardy has taken his Apex Legends casting to the next level with the Nerdstreet Gamers Summer Champs series. Alongside some amazing talent, Ardy has taken care to study the best of the best that the Apex community has to offer. Taking his experience working alongside the Team Liquid Apex team to make sure he brought the highest quality insight to his best play by play yet. Finishing in August of 2022 at the Nerdstreet LAN in Philadelphia.",
 		links: { website: "https://nerdstreet.com/" }
 	},
 	"eveasc": {
@@ -193,7 +193,7 @@ let miniPages = {
 	},
 	"operagx": {
 		title: "Opera GX",
-		content: "After years of hard work in the gaming and esports industry, Ardy landed his first ever full time job, while concurrently pursuing his degree in communications at the University of Hawai’i at Manoa. Taking on the role of social media manager Ardy runs the Twitter, TikTok, Twitch, YouTube, and Instagram accounts for the World’s first gaming browser.",
+		content: "After years of hard work in the gaming and esports industry, Ardy landed his first ever full time job, while concurrently pursuing his degree in communications at the University of Hawai’i at Manoa. After being hired to produce content for the GX corner that would garner millions of views, Ardy took on the role of social media manager to rewrite the brand voice across their Twitter, TikTok, Twitch, and YouTube accounts for the World’s first gaming browser. Ardy's activations with brand partners would also boost their twitch from 30,000 followers to over 200,000",
 		links: { website: "https://opera.com/gx" }
 	},
 };

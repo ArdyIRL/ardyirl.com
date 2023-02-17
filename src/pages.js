@@ -196,6 +196,11 @@ let miniPages = {
 		content: "After years of hard work in the gaming and esports industry, Ardy landed his first ever full time job, while concurrently pursuing his degree in communications at the University of Hawai’i at Manoa. After being hired to produce content for the GX corner that would garner millions of views, Ardy took on the role of social media manager to rewrite the brand voice across their Twitter, TikTok, Twitch, and YouTube accounts for the World’s first gaming browser. Ardy's activations with brand partners would also boost their twitch from 30,000 followers to over 200,000",
 		links: { website: "https://opera.com/gx" }
 	},
+	"valcol": {
+		title: "Valorant College",
+		content: "[placeholder]",
+		links: { website: "https://battlefy.com/cval2023" }
+	},
 };
 
 // gather links

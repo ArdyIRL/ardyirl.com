@@ -231,6 +231,7 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 	hidePage(false);
 
 	// create title
+	document.title = "ArdyIRL / " + title;
 	let _t = document.createElement("div");
 		_t.classList.add("mini-title");
 		_t.innerText = title;
@@ -277,21 +278,20 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 }
 
 function hidePage(hide = true) {
-	// clear previous elements
-	if (hide)
-		setTimeout(() => clear(), 200);
-	else
-		clear();
+	document.title = "ArdyIRL";
 
-	// hide
-	if (hide) {
+	if (hide) { // hide page and clear when hidden
 		pageWrap.classList.add("closed");
-		setTimeout(() => pageWrap.classList.add("hidden"), 200);
+		setTimeout(() => {
+			pageWrap.classList.add("hidden");
+			clear() }, 200);
 		// remove url
 		let u = new URL(location.href);
 		u.searchParams.delete("page");
 		history.pushState({}, "", u.toString());
 	}
+	else // immediately clear previous elements
+		clear();
 
 	function clear() {
 		let children = pageWindow.children;

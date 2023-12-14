@@ -198,8 +198,16 @@ let miniPages = {
 	},
 	"valcol": {
 		title: "Valorant College",
-		content: "[placeholder]",
+		content: "Ardy was able to host and cast for over 8 hours of broadcast for Cval winter 2023, including the grand finals of the CVAL North regional qualifiers.",
 		links: { website: "https://battlefy.com/cval2023" }
+	},
+	"gengglobal": {
+		title: "Gen.G Global Academy",
+		content: [
+			"Ardy was assigned to travel to Riyadh, Saudi Arabia for 2 months in summer of 2023 to coach over 50 players in Valorant. The top players that Ardy coached have been scouted and signed by 5 different Saudi Arabian esports orgs, and will be competing in Valorant Challengers EMEA next year.",
+			"Following his assignment in Riyadh, Ardy has continued to work for the Seoul office of Gen.G Esports, creating curriculum for various courses for Gen.G's Global Academy division. Developing curriculum, producing and hosting video content, and overseeing several international game training programs, Ardy continues to utilize his experience to grow and develop Gen.G Global Academy."
+			],
+		links: { website: "https://www.ggacademy.gg/?lang=en" }
 	},
 };
 

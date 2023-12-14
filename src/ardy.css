@@ -365,7 +365,7 @@ section.main {
 }
 
 .main-tagline {
-	max-width: 80vw;
+	max-width: 70vw;
 	margin: 2rem 0 3.5rem;
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 2rem;
@@ -379,7 +379,10 @@ section.main {
 }
 
 .main-tagline > span {
-	word-spacing: .5rem;
+	margin: 0 .5rem;
+	display: inline-block;
+	word-break: keep-all;
+	overflow: hidden;
 }
 
 .main-tagline > span > span {

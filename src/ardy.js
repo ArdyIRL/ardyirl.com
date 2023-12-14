@@ -24,7 +24,7 @@ addEventListener("scroll", updateScroll);
 
 // scroller arrow for lazy people
 mScroller.addEventListener("click", () =>
-	scroll({ top: innerHeight * 1.25, behavior: "smooth"}));
+	scroll({ top: innerHeight * 1.33, behavior: "smooth"}));
 
 // smooth scroll on anchor links
 // and also smooth scroll back to top via. the title logo thing
@@ -40,8 +40,6 @@ mScroller.addEventListener("click", () =>
 			let url = location.href;
 			if (url.includes("#"))
 				url = url.slice(0, url.indexOf("#"));
-			// add new hash to address
-			history.pushState({}, "", url + loc);
 
 			// scroll to anchor
 			anchor.scrollIntoView({ behavior: "smooth" });

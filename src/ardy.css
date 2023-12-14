@@ -689,8 +689,6 @@ nav.minimized:not(:hover) .nav-logo::after {
 		line-height: 2rem;
 	}
 
-	.main-tagline br { display: none; }
-
 	.main-tagline > span > span { width: .7rem; }
 
 	.brand-list { width: 100vw; }

@@ -1,2 +1,2 @@
 # ardyirl.com
-The official ArdyIRL website.
+The official portfolio of esports personality ArdyIRL.

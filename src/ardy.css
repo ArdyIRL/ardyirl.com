@@ -1,17 +1,10 @@
-::-webkit-scrollbar {
-	background: #1c1c1c;
-	width: .25rem;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #5a5a5a;
-}
+::-webkit-scrollbar { background: #1c1c1c; width: .25rem; }
+::-webkit-scrollbar-thumb { background: #5a5a5a; }
 
 html {
 	font-size: 1rem;
 	width: 100vw;
-	overflow-x: hidden;
-}
+	overflow-x: hidden; }
 
 body {
 	margin: 0;
@@ -20,8 +13,7 @@ body {
 	color: #dddddd;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
-	overflow-x: hidden;
-}
+	overflow-x: hidden; }
 
 /* better defaults */
 

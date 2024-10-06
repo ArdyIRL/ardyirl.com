@@ -258,10 +258,18 @@ section > h1 {
 	font-size: 4rem;
 	letter-spacing: .5rem;
 	position: relative;
-	top: 0;
+	top: 0; left: .1em;
 	color: #ffffff;
 	transform: skewX(-10deg);
 	text-align: center; }
+section > h1 p {
+	font-size: 1.2rem;
+	font-family: "Roboto", sans-serif;
+	font-style: initial;
+	letter-spacing: normal;
+	margin-top: .25em;
+	color: rgba(255, 255, 255, .9);
+	text-transform: none; }
 
 section > h1::after {
 	content: "";
@@ -378,7 +386,6 @@ section.main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; }
-.brand-list p { margin: 0 2rem; }
 
 .brand-list img {
 	height: 8rem;
@@ -527,6 +534,7 @@ nav.minimized:not(:hover) .nav-logo::after { top: -3.5rem }
 	.main-logo { min-width: calc(100vw - 1.5em); }
 
 	footer {
+		display: flex;
 		flex-direction: column;
 		line-height: 2.5rem; }
 	footer .divider { display: none; }
@@ -585,8 +593,7 @@ nav.minimized:not(:hover) .nav-logo::after { top: -3.5rem }
 	.main-tagline {
 		margin-top: 2.5em;
 		font-size: 1.25rem;
-		line-height: 1.5rem; }
-	.main-tagline > span > span { width: .7rem; }
+		line-height: 1.33rem; }
 
 	.brand-list { width: 100vw; }
 

@@ -228,7 +228,17 @@ let miniPages = {
 			"Alongside the management of this project, as well as being head instructor - Ardy also operated Valorant Coaching operations on behalf of Gen.G Academy throughout the duration of the Esports World Cup. This is the 2nd year in a row that Ardy has spent time in Saudi Arabia, training members of their esports community who are already being signed to teams like NASR and Falcons."
 			],
 		links: { website: "https://esportsworldcup.com/en" }
-	}
+	},
+	"mfh": {
+		title: "Mister Fun Haver Invitational",
+		content: "Ardy is taking his T2 Valorant Coaching skills back to Casting T2 and T3 Valorant events in NA.",
+		links: { twitch: "https://www.twitch.tv/funhaverinvitational/about" }
+	},
+	"yfp": {
+		title: "YFP Gaming",
+		content: "Ardy is taking his T2 Valorant Coaching skills back to Casting T2 and T3 Valorant events in NA.",
+		links: { twitch: "https://www.twitch.tv/yfpgaminglive/about" }
+	},
 };
 
 // gather links

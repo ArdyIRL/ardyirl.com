@@ -207,7 +207,7 @@ let miniPages = {
 			"With over 250 students coached across over a dozen countries, Ardy's work at Gen.G academy has created a new culture of ambition and excitement as Gen.G becomes established in the middle east.",
 			"Taking charge as a partnerships manager, Gen.G trusted Ardy's expertise in esports to bring events, tournaments, and Gen.G Academy Activations to Gen.G's new Saudi Arabian head quarters which will open in 2025. As well as the signing of all new Gen.G teams in the region."
 			],
-		links: { website: "https://www.ggacademy.gg/?lang=en" }
+		links: { website: "https://ggacademy-en.imweb.me/" }
 	},
 	"mongolz": {
 		title: "TheMongolZ",

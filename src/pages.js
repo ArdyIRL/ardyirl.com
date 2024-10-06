@@ -204,11 +204,31 @@ let miniPages = {
 	"gengglobal": {
 		title: "Gen.G Global Academy",
 		content: [
-			"Ardy was assigned to travel to Riyadh, Saudi Arabia for 2 months in summer of 2023 to coach over 50 players in Valorant. The top players that Ardy coached have been scouted and signed by 5 different Saudi Arabian esports orgs, and will be competing in Valorant Challengers EMEA next year.",
-			"Following his assignment in Riyadh, Ardy has continued to work for the Seoul office of Gen.G Esports, creating curriculum for various courses for Gen.G's Global Academy division. Developing curriculum, producing and hosting video content, and overseeing several international game training programs, Ardy continues to utilize his experience to grow and develop Gen.G Global Academy."
+			"With over 250 students coached across over a dozen countries, Ardy's work at Gen.G academy has created a new culture of ambition and excitement as Gen.G becomes established in the middle east.",
+			"Taking charge as a partnerships manager, Gen.G trusted Ardy's expertise in esports to bring events, tournaments, and Gen.G Academy Activations to Gen.G's new Saudi Arabian head quarters which will open in 2025. As well as the signing of all new Gen.G teams in the region."
 			],
 		links: { website: "https://www.ggacademy.gg/?lang=en" }
 	},
+	"mongolz": {
+		title: "TheMongolZ",
+		content: [
+			"From July of 2024, Ardy has served as the Head Coach for TheMongolZ Valorant, helping them to qualify through Valorant Premier and into Valorant Challengers League. Officially marking TheMongolZ as a Tier 2 organization in Valorant.",
+			"Competing in VCL Southeast Asia, Ardy will lead the team against major opponents like Disguised, Riddle, and BOOM Esports - All while remaining as Head Coach with Gen.G Esports. Ardy is the first person in Valorant history to be coaching 2 teams at the same time."
+			],
+		links: { website: "https://www.ggacademy.gg/?lang=en" }
+	},
+	"twitch-rivals": {
+		title: "Twitch Rivals x The Finals",
+		content: "As the number 1 caster in The Finals community, Ardy has casted every large prize pool event in The Finals history. Including the first ever Twitch Rivals integration with the game."
+	},
+	"esportsworldcup": {
+		title: "Esports World Cup",
+		content: [
+			"2 Years in a row, the Saudi Arabian government has sponsored projects to train local coaches in Saudi Arabia. With Gen.G, Ardy was in charge of making sure that Saudi Arabian coaches were trained at the highest level of standard through the Gen.G Academy program.",
+			"Alongside the management of this project, as well as being head instructor - Ardy also operated Valorant Coaching operations on behalf of Gen.G Academy throughout the duration of the Esports World Cup. This is the 2nd year in a row that Ardy has spent time in Saudi Arabia, training members of their esports community who are already being signed to teams like NASR and Falcons."
+			],
+		links: { website: "https://www.ggacademy.gg/?lang=en" }
+	}
 };
 
 // gather links

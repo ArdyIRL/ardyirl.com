@@ -326,14 +326,15 @@ section.main {
 	max-width: 70vw;
 	margin: 2rem 0 3.5rem;
 	font-family: "Bebas Neue", sans-serif;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	text-align: center;
 	z-index: 9;
 	color: #eeeeee;
-	opacity: 0;
 	letter-spacing: .1rem;
-	line-height: 1em;
-	animation: fade-in 1.5s 1s forwards; }
+	line-height: 1.25em; }
+
+.main-tagline span { opacity: 0; animation: fade-in 1.5s 1s forwards; }
+.main-tagline span:first-child { animation: fade-in 1.5s .75s forwards; }
 
 .main-tagline > div.brand-list {
 	margin-top: -.25em;
@@ -362,6 +363,7 @@ section.main {
 	top: calc(85vh - 2.5em);
 	z-index: 9;
 	cursor: pointer;
+	user-select: none;
 	transition: opacity .5s; }
 
 .scroller {
@@ -473,10 +475,9 @@ section.socials::before { height: calc(100% - 5rem); }
 
 .icons-wrapper img {
 	width: 5rem;
-	filter: drop-shadow(0 .4rem 0 #212328) drop-shadow(0 .25rem 0 #1c1d22);
+	filter: brightness(90%) drop-shadow(0 .45rem 0 #212328) drop-shadow(0 .25rem 0 #1c1d22);
 	transition: filter .15s; }
-.icons-wrapper:hover img { filter: drop-shadow(0 0 0 #212328) drop-shadow(0 0 0 #1c1d22) }
-.icons-wrapper a:hover > img { filter: drop-shadow(0 .4rem 0 #212328) drop-shadow(0 .25rem 0 #1c1d22); }
+.icons-wrapper a:hover > img { filter: brightness(110%) drop-shadow(0 0 .2em #999); }
 
 /* decoration/ main section */
 

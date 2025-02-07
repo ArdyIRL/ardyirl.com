@@ -203,10 +203,7 @@ let miniPages = {
 	},
 	"gengglobal": {
 		title: "Gen.G Global Academy",
-		content: [
-			"With over 250 students coached across over a dozen countries, Ardy's work at Gen.G academy has created a new culture of ambition and excitement as Gen.G becomes established in the middle east.",
-			"Taking charge as a partnerships manager, Gen.G trusted Ardy's expertise in esports to bring events, tournaments, and Gen.G Academy Activations to Gen.G's new Saudi Arabian head quarters which will open in 2025. As well as the signing of all new Gen.G teams in the region."
-			],
+		content: "With over 250 students coached across over a dozen countries, Ardy's work at Gen.G academy has created a new culture of ambition and excitement as Gen.G becomes established in the middle east.",
 		links: { website: "https://ggacademy-en.imweb.me/" }
 	},
 	"mongolz": {
@@ -218,8 +215,8 @@ let miniPages = {
 		links: { website: "https://bio.site/mongolz" }
 	},
 	"twitch-rivals": {
-		title: "Twitch Rivals x The Finals",
-		content: "As the number 1 caster in The Finals community, Ardy has casted every large prize pool event in The Finals history. Including the first ever Twitch Rivals integration with the game."
+		title: "Twitch Rivals",
+		content: "Twitch Rivals has entrusted Ardy 2 years in a row to provide coverage for FPS titles such as The Finals and Marvel Rivals - making sure that their broadcasts receive the highest quality commentary over their streamer vs streamer tournaments."
 	},
 	"esportsworldcup": {
 		title: "Esports World Cup",

@@ -3,15 +3,14 @@
 // ardy has worked with as well as displaying the about page and stuff™
 //
 
-const pageWrap = document.getElementById("pages-wrapper");
-const pageWindow = document.getElementById("pages-window");
-const pageCloser = document.getElementById("pages-closer");
+const pageWrap = document.getElementById("window-wrapper");
+const pageWindow = document.getElementById("window");
+const pageCloser = document.getElementById("window-close");
 /** @type {Object.<string, HTMLElement>} */
 let linklist = {};
 
 // mini pages data
 let miniPages = {
-	// CUSTOM MINI PAGES
 	"about": {
 		title: "About Me",
 		image: "src/img/media/headshot.jpg",
@@ -27,7 +26,7 @@ let miniPages = {
 		title: "Education",
 		content: [
 			"<h3>My experience as an undergraduate at the University of Hawai'i</h3>",
-			"<img src='src/img/media/trophy.jpg'><span class='subtext'>September 2021, Overwatch League Grand Finals, Honolulu, Hawai'i</span>",
+			"<img src='src/img/media/trophy.jpg'><div class='subtext'>September 2021, Overwatch League Grand Finals, Honolulu, Hawai'i</div>",
 			"In March of 2020 at the start of the pandemic I transferred to the University of Hawai'i at Manoa. Coming from Japan to Hawai'i, I was expecting a lot of lifestyle changes. However, the biggest lifestyle change did not come from being in a different locale, instead it came from the new way of life that everyone had to adapt to: being socially distanced, and entirely remote.",
 			"But remote learning, especially from Hawai'i, turned out to be the best thing that had ever happened to me. This blessing in disguise allowed me to put my head down, and focus on building my brand, and begin engaging in a career from within my dream industry: gaming and esports.",
 			"During my first semester at the University of Hawai'i, I was still unsure if I would ever get to have a career in this industry. I had been shoutcasting since 2015, but only freelance, and never anything that paid me well enough to think it could be a career path. In Japan, I hosted the largest nightlife event in Osaka - The Osaka Pub crawl. It was there that I learned I really had a knack for hosting, and being in front of a large crowd and audience. But these skills surely would never lead to an actual career right? I certainly didn't think so, which is why I transferred into the Astronomy program.",
@@ -54,7 +53,7 @@ let miniPages = {
 			"Ultimately, my time with the communications program felt a lot shorter than it really was, mostly due to the pandemic, and a majority online asynchronous format. While not the ideal 4 year college experience, it was this college experience that saw me taking on a full time job 2 semesters before graduation. That is something that I had always wanted to do, inspired by the amazing people that I looked up to in the industry before I knew it was a possibility. Ultimately, it was a massive risk, but I am so thankful to all of my professors and advisors who saw to it that I could make adjustments to their courses in order to incorporate my work life into my school assignments. The fact is, the school of communication taught me that through communication itself, I would be able to make anything work out that I set my mind to. When it all comes down to it, we are all people, and we are all brought together through communication. Everyone has their needs, and everyone has their agenda, my time at the University of Hawai'i taught me that if you just be fully truthful and upfront about those needs and that agenda - people will always at least be willing to meet you halfway. The number one thing I learned through this, was to always live with Aloha 🤙"
 		]
 	},
-	// CUSTOM BRAND PAGES
+	// BLOG
 	"arena": {
 		title: "Esports Arena",
 		content: "In 2016 I was just a kid in high school who watched CS:GO esports tournaments every single day before going home to spend over 1000 hours on CS:GO myself. I wanted to take part in the local esports scene, and I absolutely LOVED hearing the shoutcasters create hype - which is something that I thought I would be capable of. So when I saw on ad on reddit asking for a shoutcaster for an upcoming CS:GO tournament I jumped on it. I sent in a clip of me shoutcasting a replay of one of my matches, and they worked with me to get me on the stage in front of a mic and camera for the very first time! I continued shoutcasting with them until I moved away for university, but I still have a very large space in my heart for the esports arena.",
@@ -258,9 +257,9 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 	hidePage(false);
 
 	// create title
-	document.title = "ArdyIRL / " + title;
+	document.title = title + "  /  ArdyIRL";
 	let _t = document.createElement("div");
-		_t.classList.add("mini-title");
+		_t.classList.add("window-title");
 		_t.innerText = title;
 		pageWindow.appendChild(_t);
 
@@ -268,7 +267,7 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 	if (links !== null) {
 		Object.keys(links).forEach((link) => {
 			let _l = document.createElement("div");
-				_l.classList.add("mini-link");
+				_l.classList.add("window-link");
 				_l.innerHTML = `
 					<span>${link}</span>
 					<a href="${links[link]}">${links[link].replace("mailto:", "").replace("./", "")}</a>`;
@@ -287,7 +286,7 @@ function showPage(title = "Untitled", content = ["Lorem Ipsum"], links = null, u
 	let _content = typeof(content) == "string" ? [ content ] : content;
 	_content.forEach((c) => {
 		let _c = document.createElement("div");
-			_c.classList.add("mini-content");
+			_c.classList.add("window-content");
 			_c.innerHTML = c;
 			pageWindow.appendChild(_c);
 	});
@@ -324,7 +323,7 @@ function hidePage(hide = true) {
 		let children = pageWindow.children;
 		for (let i = children.length - 1; i > 0; i--) {
 			let c = children[i];
-			if (c.nodeName == "IMG" || c.classList == "mini-title" || c.classList == "mini-content" || c.classList == "mini-link")
+			if (c.nodeName == "IMG" || c.classList == "window-title" || c.classList == "window-content" || c.classList == "window-link")
 				pageWindow.removeChild(c);
 		}
 	}
@@ -342,7 +341,6 @@ setTimeout(() => {
 	let _pageToOpenOnLoad = false;
 	if (_pageToOpenOnLoad = new URL(location.href).searchParams.get("page")) {
 		let p = miniPages[_pageToOpenOnLoad];
-		if (p)
-			showPage(p.title, p.content, p.links, undefined, p.image);
+		if (p) showPage(p.title, p.content, p.links, undefined, p.image);
 	}
 });

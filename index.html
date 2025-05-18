@@ -5,81 +5,70 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="ArdyIRL is a Freelance FPS Shoutcaster, Host, Producer, Social Media Manager, And Coach for Gen.G Global Academy.">
-	<title>ArdyIRL</title>
 	<link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="src/ardy.css">
+	<title>ArdyIRL</title>
+	<link rel="prefetch" href="/ardyirl-w.png">
+	<link rel="prefetch" href="/ardyirl-b.png">
+	<link rel="prefetch" href="/ardyirl-shadow.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap">
+	<link rel="stylesheet" href="src/ardy.css">
 	<script src="src/fetch-polyfill.min.js"></script>
+	<script defer src="src/ardy.js"></script>
+	<script defer async src="src/pages.js"></script>
 </head>
 <body>
-	<div class="mini-wrapper closed hidden" id="pages-wrapper">
-		<div class="mini-window" id="pages-window">
-			<div class="mini-closer" id="pages-closer">x</div>
-			<!-- mini pages will open here-->
+	<div class="window-wrapper closed hidden" id="window-wrapper">
+		<div class="window" id="window">
+			<div class="window-close" id="window-close"></div>
+			<!-- windows will open here-->
 		</div>
 	</div>
 
-	<nav id="nav-bar">
-		<span class="left"> <!-- left links (anchors) -->
-			<a href="#highlight-reel">reel</a>
-			<a href="#stream">stream</a>
-			<a href="#video-on-demand">VODs</a>
-			<a href="#social-media">socials</a>
+	<nav id="nav-bar" class="minimized">
+		<span class="left">
+			<a href="#highlight-reel" class="nav__reel">reel</a>
+			<a href="#stream" class="nav__stream">stream</a>
+			<a href="#video-on-demand" class="nav__vods">VODs</a>
+			<a href="#social-media" class="nav__socials">socials</a>
 		</span>
 
 		<a href="./" class="logo-link"><div class="nav-logo"></div></a>
 
-		<span class="right"> <!-- right links (external) -->
-			<a href="./" id="education">education</a>
-			<a href="#blog">work</a>
-			<a href="./" id="about">about</a>
-			<a href="mailto:contact@ardyirl.com">contact</a>
+		<span class="right">
+			<a href="./" id="education" class="nav__education">education</a>
+			<a href="#blog" class="nav__blog">work</a>
+			<a href="./" id="about" class="nav__about">about</a>
+			<a href="mailto:contact@ardyirl.com" class="nav__contact">contact</a>
 		</span>
 	</nav>
 	<section class="main">
 		<div class="main-logo"></div>
 		<div class="main-tagline">
-			<span>Freelance FPS Shoutcaster</span><br><span>Marvel Rivals & Valorant Coach</span>
-			<!-- <span style="font-size: 1.2em; margin-top: .75em;">Head Valorant coach for:</a></span>
-			<div class="brand-list">
-				<img src="src/img/brands/gengglobalacademy.webp" alt="gen.g global logo" id="gengglobal">
-				<hr>
-				<img src="src/img/brands/mongolz.webp" alt="mongolz logo" id="mongolz">
-			</div>-->
-			<noscript>
-				<br>This website requires javascript for some features, <b>it does not track visitors</b>.
-				<br>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> to get full functionality.
-			</noscript>
+			<span>Head Coach NMSS Marvel Rivals</span><br><span style="font-size: .85em; margin: -.5em 0 -1.5em; display: block">&</span><br><span>Freelance FPS Shoutcaster</span>
+			<noscript><p style="font-size: 1rem; font-family: Roboto, sans-serif; line-height: 1.5">This website requires javascript for some features, <b>it does not track visitors</b>. Please <a href="https://www.enable-javascript.com/">enable javascript</a> to get full functionality.</p></noscript>
 		</div>
 
-		<!-- funny scrolling arrow button -->
 		<div id="scroller" class="scroller-wrapper">
 			<div class="scroller">&ShortDownArrow;</div>
 		</div>
 
-		<!-- decoration -->
-		<div class="main-dec a"></div>
-		<div class="main-dec b"></div>
-		<div class="main-dec c"></div>
+		<div class="main-layers a"></div>
+		<div class="main-layers b"></div>
+		<div class="main-layers c"></div>
 	</section>
 	<section id="highlight-reel" class="reel">
 		<h1>highlight reel</h1>
-		<!-- highlight reel -->
 		<div class="wrapper">
 			<div class="iframe-wrapper">
-				<iframe class="iframe-wrapped" src="https://www.youtube-nocookie.com/embed/qybV-_IG35s?controls=0" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture"></iframe>
+				<iframe src="https://www.youtube-nocookie.com/embed/qybV-_IG35s?controls=0" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture"></iframe>
 			</div>
 		</div>
 	</section>
 	<section id="blog" class="blog">
 		<h1>work experience<p><i>Click</i> a brand's logo to learn more about my experience with them, the first one is most recent!</p></h1>
-		<!-- work experience -->
+		<noscript><p>You need to <a href="https://www.enable-javascript.com/">enable javascript</a>  to use view blog entries.</p></noscript>
 		<div class="wrapper">
-			<!-- list of all brands ardy's worked with -->
-			<div class="brand-list">
-				<noscript><p>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> to use this feature.</p></noscript>
-		</div>
 			<div class="brand-list">
 				<img src="src/img/brands/twitch-rivals.webp" alt="twitch rivals logo" id="twitch-rivals">
 				<img src="src/img/brands/gengglobalacademy.webp" alt="gen.g global academy logo" id="gengglobal">
@@ -119,50 +108,28 @@
 	</section>
 	<section id="stream" class="stream">
 		<h1>stream</h1>
-		<!-- steam -->
 		<div class="wrapper">
 			<div class="iframe-wrapper">
-				<iframe class="iframe-wrapped" src="https://player.twitch.tv/?channel=ardyirl&parent=ardyirl.com" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture"></iframe>
+				<iframe src="https://player.twitch.tv/?channel=ardyirl&parent=ardyirl.com" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture"></iframe>
 			</div>
 		</div>
 	</section>
 	<section id="video-on-demand" class="vods">
 		<h1>VODs</h1>
-		<!-- vods -->
-		<div class="wrapper">
-			<noscript><p>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> to use this feature.</p></noscript>
-			<!-- vod list -->
+		<noscript><p>You need to <a href="https://www.enable-javascript.com/">enable javascript</a>  to browse vods.</p></noscript>
+		<div class="wrapper"><!-- placeholder values -->
 			<div id="vods" class="vod-list">
-				<!-- placeholders for people without js/with slow internet -->
-				<a href="https://twitch.tv/"><div class="vod">
-					<div class="info">
-						<div class="title">Loading...</div>
-						<div class="author">Please wait...</div>
-					</div>
-				</div></a>
-				<a href="https://twitch.tv/"><div class="vod">
-					<div class="info">
-						<div class="title">Loading...</div>
-						<div class="author">Please wait...</div>
-					</div>
-				</div></a>
-				<a href="https://twitch.tv/"><div class="vod">
-					<div class="info">
-						<div class="title">Loading...</div>
-						<div class="author">Please wait...</div>
-					</div>
-				</div></a>
+				<a href="https://twitch.tv/"><div class="vod"><div class="info"><div class="title">Loading...</div><div class="author">Please wait...</div></div></div></a>
+				<a href="https://twitch.tv/"><div class="vod"><div class="info"><div class="title">Loading...</div><div class="author">Please wait...</div></div></div></a>
+				<a href="https://twitch.tv/"><div class="vod"><div class="info"><div class="title">Loading...</div><div class="author">Please wait...</div></div></div></a>
 			</div>
-			<!-- "load more" button -->
 			<div id="vod-scroller" class="vod-scroller">show more</div>
-			<!-- amount of content loaded out of how much content is available -->
 			<div id="vod-counter" class="vod-counter">showing 3/?</div>
 		</div>
 		<script async src="src/vods.js"></script>
 	</section>
 	<section id="social-media" class="socials">
 		<h1>social media</h1>
-		<!-- social media links -->
 		<div class="icons-wrapper">
 			<a href="https://instagram.com/ardyirl">
 				<img src="src/img/icons/instagram.svg" alt="instagram logo"></a>
@@ -187,14 +154,12 @@
 		</div>
 	</section>
 	<footer>
-		<span>&copy; ArdyIRL 2022</span>
+		<span>&copy; ArdyIRL 2025</span>
 		<span class="divider">/</span>
 		<span><a href="./resume.pdf">resume</a> (pdf)</span>
 		<span class="divider">/</span>
 		<span><a href="mailto:contact@ardyirl.com">contact</a> (email)</span>
 		<div>website by <a href="https://zvava.org" target="_blank">zvava</a></div>
 	</footer>
-	<script async src="src/pages.js"></script>
-	<script src="src/ardy.js"></script>
 </body>
 </html>

@@ -1,30 +1,18 @@
-//
-// misc scripted functionality for ardyirl.com (strangely mainly to do with
-// scrolling 🤔)
-//
+const nav = document.getElementById("nav-bar"),
+      mScroller = document.getElementById("scroller"),
+      links = document.getElementsByTagName("a");
 
-// fetch elements
-const nav = document.getElementById("nav-bar");
-const mScroller = document.getElementById("scroller");
-const links = document.getElementsByTagName("a");
-
-// responsive nav bar
-//nav.classList.add("minimized");
-function updateScroll() {
+addEventListener("scroll", function updateScroll() {
 	if (scrollY > innerHeight / 4) {
-		//nav.classList.remove("minimized");
+		nav.classList.remove("minimized");
 		mScroller.classList.add("hidden");
 	} else {
-		//nav.classList.add("minimized");
+		nav.classList.add("minimized");
 		mScroller.classList.remove("hidden");
 	}
-}
-updateScroll();
-addEventListener("scroll", updateScroll);
+});
 
-// scroller arrow for lazy people
-mScroller.addEventListener("click", () =>
-	scroll({ top: innerHeight * 1.33, behavior: "smooth"}));
+mScroller.addEventListener("click", () => scroll({ top: innerHeight * 1.33, behavior: "smooth"}));
 
 // smooth scroll on anchor links
 // and also smooth scroll back to top via. the title logo thing

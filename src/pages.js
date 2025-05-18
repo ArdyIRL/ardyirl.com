@@ -213,10 +213,6 @@ let miniPages = {
 			],
 		links: { website: "https://bio.site/mongolz" }
 	},
-	"twitch-rivals": {
-		title: "Twitch Rivals",
-		content: "Twitch Rivals has entrusted Ardy 2 years in a row to provide coverage for FPS titles such as The Finals and Marvel Rivals - making sure that their broadcasts receive the highest quality commentary over their streamer vs streamer tournaments."
-	},
 	"esportsworldcup": {
 		title: "Esports World Cup",
 		content: [
@@ -235,16 +231,50 @@ let miniPages = {
 		content: "Ardy is taking his T2 Valorant Coaching skills back to Casting T2 and T3 Valorant events in NA.",
 		links: { twitch: "https://www.twitch.tv/yfpgaminglive/about" }
 	},
+	"fragpunk-hub": {
+		title: "Fragpunk Hub",
+		content: "Putting in all the emotion, Ardy cast the Fragpunk Hub brawl tournaments, a joint venture with EGL.",
+		links: { linktree: "https://linktr.ee/FragPunkHUB" }
+	},
+	"finals-pro-hubs": {
+		title: "Pro Hubs",
+		content: "Ardy is casting season zero for ProHubsTF.",
+		links: { twitch: "https://prohubs.tf/" }
+	},
+	"fragpunk-world-clash": {
+		title: "Fragpunk World Clash",
+		content: "Ardy is taking his T2 Valorant Coaching skills back to Casting T2 and T3 Valorant events in NA.",
+		links: { twitch: "https://www.fragpunkworldclash.com/" }
+	},
+	"twitch-rivals": {
+		title: "Twitch Rivals",
+		content: "Twitch Rivals has entrusted Ardy 2 years in a row to provide coverage for FPS titles such as Fragpunk, The Finals, and Marvel Rivals — making sure that their broadcasts receive the highest quality commentary over their streamer vs streamer tournaments."
+	},
+	"gtarp-charity": {
+		title: "GTARP ",
+		content: "Ardy cast the GTARP Marvel Rivals Charity League, hosted/organized by Capped and Arckon.",
+		links: { website: "https://www.thegtarpcharityleague.com/" }
+	},
+	"vanguardian-league": {
+		title: "Vanguardian League",
+		content: "",
+		links: { discord: "https://discord.gg/6nHE4mqr2m" }
+	},
+	"nmss": {
+		title: "Team Nemesis",
+		content: "",
+		links: { website: "https://nmss.gg/" }
+	}
 };
 
 // gather links
 Object.keys(miniPages).forEach((l) => {
-	linklist[l] = document.getElementById(l);
-
-	linklist[l].addEventListener("click", () =>
-		showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l, miniPages[l].image));
-
 	try {
+		linklist[l] = document.getElementById(l);
+
+		linklist[l].addEventListener("click", () =>
+			showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l, miniPages[l].image));
+
 		if (linklist[l].tagName == "A")
 			linklist[l].attributes.removeNamedItem("href");
 	} catch (e) {

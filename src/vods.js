@@ -5,7 +5,7 @@
 
 // get elements
 const list = document.getElementById("vods");
-const scroller = document.getElementById("vod-scroller");
+const scroller = document.getElementById("vod-paginator");
 const counter = document.getElementById("vod-counter");
 let vods = [];
 let count = 0;

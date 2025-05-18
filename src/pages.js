@@ -270,13 +270,15 @@ let miniPages = {
 // gather links
 Object.keys(miniPages).forEach((l) => {
 	try {
-		linklist[l] = document.getElementById(l);
+		linklist[l] = document.querySelectorAll("#" + l);
 
-		linklist[l].addEventListener("click", () =>
-			showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l, miniPages[l].image));
+		for (let link of linklist[l]) {
+			link.addEventListener("click", () =>
+				showPage(miniPages[l].title, miniPages[l].content, miniPages[l].links, l, miniPages[l].image));
 
-		if (linklist[l].tagName == "A")
-			linklist[l].attributes.removeNamedItem("href");
+			if (link.tagName == "A")
+				link.attributes.removeNamedItem("href");
+		}
 	} catch (e) {
 		console.error(e);
 	}

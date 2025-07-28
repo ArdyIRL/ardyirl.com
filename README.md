@@ -1,5 +1,5 @@
 # ardyirl.com
-The official portfolio of e-sports personality ArdyIRL.
+The official portfolio of esports personality ArdyIRL.
 
 ## vods
 located in the `src/data/vods.csv` file, there is a list of vods ordered from *oldest to newest* in the following format:

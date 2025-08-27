@@ -264,6 +264,11 @@ let miniPages = {
 		title: "Team Nemesis",
 		content: "",
 		links: { website: "https://nmss.gg/" }
+	},
+	"ts": {
+		title: "Team Secret",
+		content: 'Ardy has joined Team Secret to coach the roster formerly known as "Aimerz" in their run up for The Finals $100,000 major at Dreamhack Stockholm',
+		links: { website: "https://teamsecret.gg/" }
 	}
 };
 
